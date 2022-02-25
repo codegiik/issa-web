@@ -1,0 +1,14 @@
+.competition {
+  @apply grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 1fr;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 60% 40%;
+  }
+
+  .info_box {
+    @apply flex flex-col justify-center;
+  }
+}

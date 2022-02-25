@@ -1,0 +1,7 @@
+.main {
+  @apply h-full w-full;
+}
+
+.wrapper {
+  @apply flex flex-col;
+}

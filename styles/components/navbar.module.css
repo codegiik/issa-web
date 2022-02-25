@@ -1,0 +1,17 @@
+.navbar {
+  @apply flex flex-col w-full px-5 py-3;
+  @apply border-b-[1px] border-cedar;
+
+  .logo_wrapper {
+    @apply flex justify-center items-center mr-auto gap-4;
+
+    .logo {
+      @apply h-16 w-auto;
+    }
+
+    .logo_text {
+      font-family: 'Georgia';
+      @apply uppercase font-medium text-3xl;
+    }
+  }
+}
